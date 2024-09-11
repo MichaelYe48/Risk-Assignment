@@ -1,6 +1,6 @@
 # Risk-Assignment
 
-This project offers a python solution for risk assignment in financial datasets, often applied in auditing processes. The potential risks this program can identify are as follows:
+This project offers a python solution for risk assignment in financial datasets, often applied in auditing processes. In addition to the main `Risk_Rating_Assignment` file, the auxiliary `processor` file preprocesses the data, including clustering similar invoice descriptions using the DBSCAN clustering algorithm. The potential risks this program can identify are as follows:
 - **a** - accounting code is missing or incorrect
 - **b** - the events 1 through 15 above happen out of order (ex: invoice date is prior to purchase order date)
 - **c** - bill of sale or delivery documents are missing or do not agree with amounts on invoice
